@@ -7,11 +7,11 @@ str1 = str(input('Введите первую строку: '))
 str2 = str(input('Введите вторую строку: '))
 
 #Поиск вхождений одной строки в другую
-def count_overlapping_substrings(string, subseq):
+def count_overlapping_substrings(str1, str2):
 	count = 0
 	i = -1
 	while True:
-		i = string.find(subseq, i+1)
+		i = str1.find(str2, i+1)
 		if i == -1:
 			return count
 		count += 1
