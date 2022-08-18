@@ -14,4 +14,5 @@ num = int(input("Введите число: "))
 list = []
 for e in range(1, num + 1):
     list.append(fact(e))
+
 print(f"Произведения чисел от 1 до {num}:  {list}")
