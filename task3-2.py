@@ -9,7 +9,6 @@
 	6) Меняем местами элементы с индексами [i] и [min_index]
 """
 
-
 def selsort(numlist):
 	for i in range(0, len(numlist) - 1):
 		min_index = i
